@@ -8,7 +8,7 @@ Docker&amp;AWVS批量部署
 
 - docker run --privileged=true -p 1111:1111-it -d awvs "/sbin/init"
 
-- 进入到docker容器内执行命令：mv patch_awvs mv patch_awvs /home/acunetix/.acunetix_trial/v_190325161/scanner/  
+- 进入到docker容器内执行命令：mv patch_awvs mv patch_awvs /home/acunetix/.acunetix_trial/v_190325161/scanner/<br />
   cd /home/acunetix/.acunetix_trial/v_190325161/scanner/  
   ./patch_awvs  
   chattr +i /home/acunetix/.acunetix_trial/data/license/license_info.json  
