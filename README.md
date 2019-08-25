@@ -29,3 +29,6 @@ Docker&amp;AWVS批量部署
 
 附件:
 https://file-1256911118.cos.ap-beijing.myqcloud.com/acunetix_trial.sh.zip
+
+## Fix
+1.修复扫描状态为failed时卡死的情况
