@@ -98,6 +98,8 @@ def scan(url):
 
     gk = get_scan_gk(scan_id,scan_session_id)
     while gk['status'] !='completed':
+        if gk['status'] == 'failed':
+            break
         time.sleep(10)
         try:
             gk = get_scan_gk(scan_id,scan_session_id)
