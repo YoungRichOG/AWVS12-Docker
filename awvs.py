@@ -100,7 +100,7 @@ def scan(url):
     while gk['status'] !='completed':
         if gk['status'] == 'failed':
             break
-        time.sleep(10)
+        time.sleep(60)
         try:
             gk = get_scan_gk(scan_id,scan_session_id)
             print('没有完成扫描: status: '+gk['status'])
