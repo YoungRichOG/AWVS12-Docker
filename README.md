@@ -17,6 +17,8 @@ Docker&amp;AWVS批量部署
   
   chattr +i /home/acunetix/.acunetix_trial/data/license/license_info.json  
   
+  rm -rf /home/acunetix/.acunetix_trial/data/license/wa_data.dat
+  
   systemctl stop acunetix_trial.service  
   
   vim /home/acunetix/.acunetix_trial/wvs.ini 修改监听端口 server.port=1111  
